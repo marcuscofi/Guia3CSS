@@ -91,7 +91,7 @@ a {
 
 .container {
   min-height: 100vh;
-  background-image: url("../img/fondo-bosque.jpg");
+  background-image: url("../images/fondo-bosque.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -132,7 +132,7 @@ a {
   left: 0;
 }
 
-#checkMenu:checked + .labetBotonMenu #btnMostrar {
+#checkMenu:checked + .labelBotonMenu #btnMostrar {
   left: var(--ancho-menu);
   opacity: 0;
   pointer-events: none;
